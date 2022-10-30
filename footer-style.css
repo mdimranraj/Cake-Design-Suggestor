@@ -1,10 +1,20 @@
 .main{
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    background-color: #4C0033;
+    color: azure;
+}
+.col1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 .footer-img{
+    margin-right: 10px;
     width: 100px;
     height: 100px;
 }
