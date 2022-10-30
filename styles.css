@@ -1,0 +1,18 @@
+/* font-family: 'Merriweather', serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+body{
+    margin: 0;
+}
+.main-wrapper-class {
+    background-color: aqua;
+    height: 100vh;
+}
+.nav-wrapper-class {
+    background-color: antiquewhite;
+    height: 100vh;
+}
+.foot-wrapper-class {
+    background-color: blueviolet;
+    height: 100vh;
+}
