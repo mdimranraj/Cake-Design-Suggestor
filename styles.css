@@ -1,18 +1,64 @@
 /* font-family: 'Merriweather', serif; */
 /* font-family: 'Montserrat', sans-serif; */
 
+
 body{
     margin: 0;
+    padding: 0;
 }
+.navbar-replace{
+    margin: 0;
+}
+
 .main-wrapper-class {
-    background-color: aqua;
-    height: 100vh;
+    margin: 0;
+    /* background-color: #FFACC7; */
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(120deg, rgba(255,255,255,1) 2%, rgba(255,215,228,1) 27%, rgba(255,172,199,1) 45%, rgba(255,141,199,1) 59%, rgba(76,0,51,1) 97%);
+    background: -webkit-linear-gradient(120deg, rgba(255,255,255,1) 2%, rgba(255,215,228,1) 27%, rgba(255,172,199,1) 45%, rgba(255,141,199,1) 59%, rgba(76,0,51,1) 97%);
+    background: linear-gradient(120deg, rgba(255,255,255,1) 2%, rgba(255,215,228,1) 27%, rgba(255,172,199,1) 45%, rgba(255,141,199,1) 59%, rgba(76,0,51,1) 97%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#4c0033",GradientType=1);
 }
-.nav-wrapper-class {
-    background-color: antiquewhite;
-    height: 100vh;
+.main-img{
+   width: 30vw;
+   height: 30vh;
 }
-.foot-wrapper-class {
-    background-color: blueviolet;
-    height: 100vh;
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+.small-heading{
+    font-size: 2rem;
+}
+
+.second-wrapper-class {
+    text-align: center;
+    background-color: #FFABE1;
+    min-height: fit-content;
+    
+}
+.second-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.second-nested-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.outlet-text-left{
+    font-size: 1.5rem;
 }
