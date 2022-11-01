@@ -3,11 +3,13 @@ body{
     padding: 0;
 }
 .navbar{
-
-    background: rgb(255,255,255);
-    background: -moz-linear-gradient(135deg, rgba(255,255,255,1) 4%, rgba(255,238,238,1) 27%, rgba(255,238,221,1) 61%, rgba(238,255,255,1) 92%);
-    background: -webkit-linear-gradient(135deg, rgba(255,255,255,1) 4%, rgba(255,238,238,1) 27%, rgba(255,238,221,1) 61%, rgba(238,255,255,1) 92%);
-    background: linear-gradient(135deg, rgba(255,255,255,1) 4%, rgba(255,238,238,1) 27%, rgba(255,238,221,1) 61%, rgba(238,255,255,1) 92%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#eeffff",GradientType=1);
-
+    padding: 0;
+}
+.navbar a{
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+.logo{
+    width: 150px;
+    height: 150px;
 }

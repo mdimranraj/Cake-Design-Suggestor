@@ -5,45 +5,74 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #ef9ad3;
+    /* background-color: #790252; */
 }
 .navbar-replace{
     margin: 0;
+    backdrop-filter: blur(10px); 
 }
 
 .main-wrapper-class {
     margin: 0;
-    padding: 20px 10px;
-    /* background-color: #FFACC7; */
-    min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    min-height: 75vh;
+}
 
-    background: rgb(255,255,255);
-    background: -moz-linear-gradient(120deg, rgba(255,255,255,1) 2%, rgba(255,215,228,1) 27%, rgba(255,172,199,1) 45%, rgba(255,141,199,1) 59%, rgba(76,0,51,1) 97%);
-    background: -webkit-linear-gradient(120deg, rgba(255,255,255,1) 2%, rgba(255,215,228,1) 27%, rgba(255,172,199,1) 45%, rgba(255,141,199,1) 59%, rgba(76,0,51,1) 97%);
-    background: linear-gradient(120deg, rgba(255,255,255,1) 2%, rgba(255,215,228,1) 27%, rgba(255,172,199,1) 45%, rgba(255,141,199,1) 59%, rgba(76,0,51,1) 97%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#4c0033",GradientType=1);
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;;
+    object-fit: cover;
+    z-index: -2;
+    opacity: 0.85;
+  }
+@media(min-aspect-ratio: 16/9){
+    #myVideo{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    #myVideo{
+        width: auto;
+        height: 100%;
+    }
+}
+.main-text{
+    /* backdrop-filter: blur(10px);  */
+    /* color:#eddee8; */
+    color: pink;
+    /* color:#4c0962; */
+    width: fit-content;
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 50px 20px;
 }
 .main-img{
    width: 30vw;
    height: 30vh;
 }
+.browse-button{
+    width: 300px;
+}
 h1{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    width: fit-content;
 }
 h2{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    width: fit-content;
 }
 .small-heading{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .second-wrapper-class {
     padding: 20px 10px;
     text-align: center;
-    background-color: #FFABE1;
+    /* background-color: #FFABE1; */
     min-height: fit-content;
     
 }
@@ -62,4 +91,8 @@ h2{
 }
 .outlet-text-left{
     font-size: 1.5rem;
+}
+
+.third-wrapper-class{
+    background-color: #790252;
 }
