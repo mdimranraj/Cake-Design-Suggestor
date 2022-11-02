@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ef9ad3;
+    /* background-color: #790252; */
+}
+.navbar-replace{
+    margin: 0;
+    backdrop-filter: blur(10px); 
+}
