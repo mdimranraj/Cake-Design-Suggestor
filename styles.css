@@ -12,8 +12,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #ef9ad3;
-    /* background-color: #790252; */
+    /* background-color: #ef9ad3; */
+    background-color: #790252 !important;
+
 }
 .navbar-replace{
     margin: 0;
@@ -36,12 +37,14 @@ body{
   }
 @media(min-aspect-ratio: 16/9){
     #myVideo{
+        overflow-x: hidden;
         width: 100%;
         height: auto;
     }
 }
 @media(max-aspect-ratio: 16/9){
     #myVideo{
+        overflow-x: hidden;
         width: auto;
         height: 100%;
     }
@@ -76,12 +79,16 @@ h2{
 .second-wrapper-class {
     padding: 20px 10px;
     text-align: center;
-    /* background-color: #FFABE1; */
+    background-color: #E80F88;
+    background-image: url("images/pink-back-pattern-2.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
     min-height: fit-content;
     
 }
 .second-wrapper-class h2{
     margin: 0 auto;
+    color: #F8C4B4;
 }
 .second-flex{
     display: flex;
@@ -102,17 +109,24 @@ h2{
 .outlet-text-left{
     font-size: 1.5rem;
 }
+
 .second-col-2{
     width: 50%;
     height: 300px;
-    background-color: #FFABE1;
-    background-image: url("images/cake3.png");
+    /* background-color:  #FF8DC7; */
+    /* background-image: url("images/pink-back-pattern-2.jpg"), url("images/cake3.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-blend-mode: lighten;
+    background-blend-mode: soft-light; */
+    /* opacity: 0.4; */
 }
-
+.second-col-2 div{
+    padding-top: 8em ;
+    padding-bottom: 8em;
+    height: inherit;
+    opacity: 1;
+}
 /* ============ Third section =============== */
 .third-wrapper-class{
     width: 100%;

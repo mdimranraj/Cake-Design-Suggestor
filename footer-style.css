@@ -1,9 +1,12 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .main{
     padding: 20px 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
     background-color: #4C0033;
     color: azure;
 }
