@@ -1,7 +1,14 @@
 /* font-family: 'Merriweather', serif; */
 /* font-family: 'Montserrat', sans-serif; */
 
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
 body{
     margin: 0;
     padding: 0;
@@ -15,16 +22,17 @@ body{
 
 .main-wrapper-class {
     margin: 0;
-    min-height: 75vh;
+    min-height: 90vh;
 }
 
 #myVideo {
     position: absolute;
+    left: 0;
     right: 0;
     bottom: 0;;
     object-fit: cover;
     z-index: -2;
-    opacity: 0.85;
+    opacity: 0.75;
   }
 @media(min-aspect-ratio: 16/9){
     #myVideo{
@@ -41,19 +49,15 @@ body{
 .main-text{
     /* backdrop-filter: blur(10px);  */
     /* color:#eddee8; */
-    color: pink;
+    color: #FF99D7;
     /* color:#4c0962; */
     width: fit-content;
-    margin-top: auto;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     padding: 50px 20px;
 }
-.main-img{
-   width: 30vw;
-   height: 30vh;
-}
+
 .browse-button{
     width: 300px;
 }
@@ -76,6 +80,9 @@ h2{
     min-height: fit-content;
     
 }
+.second-wrapper-class h2{
+    margin: 0 auto;
+}
 .second-flex{
     display: flex;
     flex-wrap: wrap;
@@ -89,10 +96,60 @@ h2{
     justify-content: space-around;
 
 }
+.second-nested-flex ul li{
+    text-align: left;
+}
 .outlet-text-left{
     font-size: 1.5rem;
 }
-
-.third-wrapper-class{
-    background-color: #790252;
+.second-col-2{
+    width: 50%;
+    height: 300px;
+    background-color: #FFABE1;
+    background-image: url("images/cake3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-blend-mode: lighten;
 }
+
+/* ============ Third section =============== */
+.third-wrapper-class{
+    width: 100%;
+    height: fit-content;
+    background-color: #790252;
+    text-align: center;
+}
+.third-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.third-wrapper-class h2{
+    margin: 0 auto ;
+    padding: 1em 0.5em 0.5em 0.5em;
+}
+.third-wrapper-class p{
+    font-size: 1.1em;
+    margin: 0;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+}
+.third-wrapper-class p span{
+    font-size: 1.3em;
+    font-weight:bold;
+
+}
+.third-wrapper-class p button{
+    width: 300px;
+
+}
+.third-wrapper-class div img{
+    padding: 0.2em 0.3em;
+    width: 200px;
+    height: auto;
+}
+
