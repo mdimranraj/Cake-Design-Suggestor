@@ -11,13 +11,14 @@ body{
     margin: 0;
     padding: 0;
     /* background-color: #FFE6F7; */
-    background-color: #FFB9B9;
+    background-color: #FFB9B9 !important;
     background-image: url("images/pink-back-pattern-2.jpg");
     background-size: cover;
     /* background-blend-mode: overlay; */
     background-blend-mode: lighten;
 } 
-#main{
+#main-cake{
+    min-height: 100vh;
     height: fit-content;
     background-color: #7ae0ee;
     display: flex;
