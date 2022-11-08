@@ -2,6 +2,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+.col3 a:hover, .col2 a:hover{
+    color:  rgb(174, 231, 231);
+}
 .main{
     padding: 20px 10px;
     display: flex;
