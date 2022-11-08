@@ -52,7 +52,7 @@ body{
 .main-text{
     /* backdrop-filter: blur(10px);  */
     /* color:#eddee8; */
-    color: #FF99D7;
+    color: #ffffff;
     /* color:#4c0962; */
     width: fit-content;
     position: absolute;
@@ -63,6 +63,16 @@ body{
 
 .browse-button{
     width: 300px;
+    letter-spacing: 1.5px;
+    color:#790252 !important;
+    font-weight: bold !important;
+    font-size: 1.2em !important;
+    background-image: url("images/pink-back-pattern-3.jpg");
+    background-size: cover;
+    border-radius: 20px !important;
+}
+.browse-button:hover{
+    opacity: 0.75;
 }
 h1{
     font-size: 2.5rem;
@@ -87,8 +97,9 @@ h2{
     
 }
 .second-wrapper-class h2{
+    font-size: 2.2em !important;
     margin: 0 auto;
-    color: #F8C4B4;
+    color: #ffffff;
 }
 .second-flex{
     display: flex;
@@ -100,32 +111,40 @@ h2{
 .second-nested-flex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 
+}
+.second-nested-flex ul{
+    padding-left: 1em !important;
 }
 .second-nested-flex ul li{
     text-align: left;
+    color: #ced4ba;
+    font-size: 1.3em;
 }
 .outlet-text-left{
-    font-size: 1.5rem;
-}
+    font-size: 1.7em;
+    color: #e7e1e1;
 
-.second-col-2{
-    width: 50%;
-    height: 300px;
-    /* background-color:  #FF8DC7; */
-    /* background-image: url("images/pink-back-pattern-2.jpg"), url("images/cake3.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-blend-mode: soft-light; */
-    /* opacity: 0.4; */
 }
 .second-col-2 div{
+    color: #d1dab6;
     padding-top: 8em ;
     padding-bottom: 8em;
     height: inherit;
     opacity: 1;
+}
+.second-col-2 h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 2.3em;
+}
+.second-col-2 div button{
+    color: #ced4ba;
+    border-color: #d1dab6;
+}
+.second-col-2 div button:last-child{
+    color: #790252; 
 }
 /* ============ Third section =============== */
 .third-wrapper-class{
@@ -137,15 +156,16 @@ h2{
 .third-flex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
 }
 .third-wrapper-class h2{
     margin: 0 auto ;
     padding: 1em 0.5em 0.5em 0.5em;
+    color: #FFACC7;
 }
 .third-wrapper-class p{
     font-size: 1.1em;
+    color: #f5edf2;
     margin: 0;
     padding-left: 0.3em;
     padding-right: 0.3em;
@@ -158,8 +178,12 @@ h2{
 
 }
 .third-wrapper-class p button{
+    font-size: 1.2em;
+    letter-spacing: 1.5px;
     width: 300px;
-
+    color:#e7e1e1;
+    border-color: #e7e1e1;
+    background-image: url("images/pink-back-pattern-2.jpg");
 }
 .third-wrapper-class div img{
     padding: 0.2em 0.3em;

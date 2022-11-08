@@ -34,33 +34,29 @@
         </section>
         <div class="main-cake">
             <h2>Get your Cake</h2>
-
+            <hr>
             <!-- ================================================================ -->
+            <div id="search-container">
+              <input type="search" id="search-input" placeholder="search here">
+              <button id="search" onclick="searchBar()">Search</button>
+            </div>
+
             <ul class="nav nav-tabs" id="buttons">
                 <li class="nav-item">
-                    <button class="btn1" onclick="filterObjects('all')">Show All</button>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Birthday</a>
-                  <ul class="dropdown-menu">
-                    <li><button class="btn1" onclick="filterObjects('birthday')">Fruits</button></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                  </ul>
+                    <button class="btn1 btn" onclick="filterObjects('all')">Show All</button>
                 </li>
                 <li class="nav-item">
-                    <button class="btn1" onclick="filterObjects('children')">Children</button>
+                  <button class="btn1 btn" onclick="filterObjects('birthday')">Birthday</button>
                 </li>
                 <li class="nav-item">
-                    <button class="btn1" onclick="filterObjects('anniversary')">Anniversary</button>
+                    <button class="btn1 btn" onclick="filterObjects('children')">Children</button>
                 </li>
                 <li class="nav-item">
-                    <button class="btn1" onclick="filterObjects('birthday')">Birthday</button>
+                    <button class="btn1 btn" onclick="filterObjects('anniversary')">Anniversary</button>
                 </li>
+                
                 <li class="nav-item">
-                    <button class="btn1" onclick="filterObjects('occasional')">Occasional</button>
+                    <button class="btn1 btn" onclick="filterObjects('occasional')">Occasional</button>
                 </li>
               </ul>
 
@@ -77,7 +73,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
           
             </div>
@@ -89,7 +85,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             <div class="cards box anniversary">
@@ -100,7 +96,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             <div class="cards box anniversary">
@@ -111,7 +107,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             <div class="cards box anniversary">
@@ -122,7 +118,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             <div class="cards box anniversary">
@@ -133,7 +129,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             <div class="cards box anniversary">
@@ -144,7 +140,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             <div class="cards box anniversary">
@@ -155,7 +151,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             <div class="cards box anniversary">
@@ -166,7 +162,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             <div class="cards box anniversary">
@@ -177,7 +173,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             <div class="cards box anniversary">
@@ -188,7 +184,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             
@@ -200,18 +196,18 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             <div class="cards box birthday boy">
                 <img src="images/birthday/b_cake_2.png" class="card-img-top" alt="b_cake_2">
                 <div class="card-body">
                   <h5 class="card-title">₹ 329</h5>
-                  <p class="card-text">Double Decker StrawBerry</p>
+                  <p class="card-text">D-decker StrawBerry</p>
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             <div class="cards box birthday boy">
@@ -222,7 +218,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             <div class="cards box birthday boy">
@@ -233,7 +229,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             <div class="cards box birthday boy">
@@ -244,7 +240,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             <div class="cards box birthday boy">
@@ -255,7 +251,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             <div class="cards box birthday boy">
@@ -266,7 +262,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
             
@@ -278,7 +274,7 @@
               </div>
               <div class="card-footer">
                 <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
               </div>
           </div>
           <div class="cards box birthday girl">
@@ -289,7 +285,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
 
@@ -302,7 +298,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children girl">
@@ -313,7 +309,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children girl">
@@ -324,7 +320,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children girl">
@@ -335,7 +331,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children girl">
@@ -346,7 +342,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children girl">
@@ -357,7 +353,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
 
@@ -369,7 +365,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children boy">
@@ -380,7 +376,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children boy">
@@ -391,7 +387,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children boy">
@@ -402,7 +398,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children boy">
@@ -413,7 +409,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children boy">
@@ -424,7 +420,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children boy">
@@ -435,7 +431,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children boy">
@@ -446,7 +442,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children boy">
@@ -457,7 +453,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children boy">
@@ -468,7 +464,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           
@@ -480,7 +476,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children boy">
@@ -491,7 +487,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children boy">
@@ -502,7 +498,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box children boy">
@@ -513,7 +509,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
 
@@ -526,7 +522,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box occasional">
@@ -537,7 +533,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box occasional">
@@ -548,7 +544,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
           <div class="cards box occasional">
@@ -559,7 +555,7 @@
             </div>
             <div class="card-footer">
               <button type="button" class="btn btn-outline-info">Recipe</button>
-                  <button type="button" class="btn btn-outline-success">Order</button>
+                  <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
 

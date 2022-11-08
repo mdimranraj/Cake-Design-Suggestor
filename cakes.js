@@ -1,5 +1,11 @@
 filterObjects("all");
 
+function searchBar(){
+    var str = document.getElementById("search-input").value;
+    var lowerStr = str.toLowerCase();
+    filterObjects(lowerStr);
+}
+
 function filterObjects(c){
     var x, i;
     x = document.getElementsByClassName("box");

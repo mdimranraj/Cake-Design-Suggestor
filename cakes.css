@@ -7,15 +7,27 @@
     font-family: "Poppins", sans-serif;
 }
 
+.navbar-replace{
+    margin: 0;
+    backdrop-filter: blur(50px); 
+}
+
+.main-cake h2{
+    color: #4C0033;
+    text-align: center;
+    font-size: 3em !important;
+    font-weight: bold !important;
+}
+
 body{
     margin: 0;
     padding: 0;
     /* background-color: #FFE6F7; */
-    background-color: #FFB9B9 !important;
-    background-image: url("images/pink-back-pattern-2.jpg");
-    background-size: cover;
+    /* background-color: #FFB9B9 !important; */
+    background-image: url("images/cream-back-pattern.jpg");
+    background-size: contain;
     /* background-blend-mode: overlay; */
-    background-blend-mode: lighten;
+    /* background-blend-mode: lighten; */
 } 
 #main-cake{
     min-height: 100vh;
@@ -25,10 +37,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .cards{
-    width:280px;
+    width:auto;
     height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .cards img{
     width: 280px;
@@ -52,29 +66,103 @@ body{
     align-items: center;
 
 }
+.card-body h5{
+    font-size: 1.2em;
+    text-align: left;
+    color: #FFB9B9;
+}
+.card-body p{
+    font-size: 1.5em;
+    text-align: left;
+    color: #FFE6F7;
+}
+.card-footer button{
+    font-size: 1.3em;
+    margin:5px 0;
+}
+
+
 .box{
     /* float: left; */
-    background-color: #0162b1;
+    /* background-color: #790252; */
+    background-image: url("images/maroon-back.jpg");
     color: #fff;
     width:auto;
     line-height: 20px;
     text-align: center;
-    margin:10px;
+    margin:30px 15px;
     display: none;
+    
+}
+.box:hover{
+    transform: scale(1.05);
 }
 .show{
     display: block;
+}
+
+#buttons{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+#buttons li{
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .btn1{
     border: none;
     outline: none;
     margin-bottom: 20px;
-    padding: 12px 16px;
-    background-color: #f1f1f1;
+    /* padding: 12px 16px; */
+    padding: 1em 2em !important;
+    /* background-color: #f1f1f1; */
+    background-image: url("images/cream-back.jpg");
     cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20px !important;
+}
 
+.btn1:active{
+    transform: scale(0.95);
+    /* box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); */
+    box-shadow: rgba(25, 20, 83, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .btn1:hover{
-    background-color: #ddd;
+    border-width: 2px;
+    border-color: #FFDDD2;
+}
+
+
+#search-container{
+    text-align: center;
+}
+#search-container input{
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.3em;
+}
+#search-container input:focus{
+    border-bottom-color: #FFDDD2 ;
 
 }
+#search-container button{
+    padding: 1em 2em;
+    margin-left: 1em;
+    /* background-color:  #4C0033; */
+    background-image: url("images/maroon-back.jpg");
+    color:#ffffff;
+    border-radius:5px;
+    margin-top: 0.5em;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20px !important;
+}
+
+
+
