@@ -9,17 +9,20 @@
 
 .navbar-replace{
     margin: 0;
-    backdrop-filter: blur(50px); 
+    backdrop-filter: blur(50px);
+    
 }
 .navbar a{
     color: #E80F88 !important;
+    
 }
 .navbar a:hover{
     color: #790252 !important;
 }
 
 .main-cake h2{
-    color: #4C0033;
+    font-family: 'Montserrat', sans-serif;
+    color: #790252;
     text-align: center;
     font-size: 3em !important;
     font-weight: bold !important;
@@ -151,6 +154,8 @@ body{
     margin-bottom: 5px;
 }
 .btn1{
+    font-size: 1em !important;
+    font-weight: 550 !important;
     border: none;
     outline: none;
     padding: 0.8em 1.8em !important;
@@ -176,7 +181,7 @@ body{
 }
 #search-container input{
     background-color: transparent;
-    width: 40%;
+    width: 50%;
     border-bottom: 2px solid #110f29;
     padding: 1em 0.3em;
 }
@@ -185,7 +190,7 @@ body{
 
 }
 #search-container button{
-    padding: 1em 2em;
+    padding: 0.8em 2em;
     margin-left: 1em;
     /* background-color:  #4C0033; */
     background-image: url("images/maroon-back.jpg");

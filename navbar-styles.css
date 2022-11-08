@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    
 }
 .navbar{
     padding: 0;
@@ -18,6 +19,7 @@ body{
     text-decoration: none;
     color: rgb(244, 236, 243);
     font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif !important; 
 }
 .navbar a:hover{
     color: #E80F88;
