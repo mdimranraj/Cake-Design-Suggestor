@@ -8,7 +8,7 @@ a{
     flex-wrap: wrap;
     justify-content: space-around;  
     background-color: #4C0033;
-    color: azure;
+    color: rgb(195, 214, 214);
 }
 .col1{
     display: flex;
@@ -20,4 +20,8 @@ a{
     margin-right: 10px;
     width: 170px;
     height: 100px;
+}
+.col2 h4, .col3 h4{
+    padding-top: 10px;
+    color: rgb(243, 246, 249);
 }

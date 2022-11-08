@@ -19,6 +19,9 @@ body{
     color: rgb(244, 236, 243);
     font-size: 1.2rem;
 }
+.navbar a:hover{
+    color: #E80F88;
+}
 .logo{
     width: 150px;
     height: 60px;

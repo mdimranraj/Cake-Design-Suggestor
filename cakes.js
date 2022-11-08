@@ -5,7 +5,14 @@ function searchBar(){
     var lowerStr = str.toLowerCase();
     filterObjects(lowerStr);
 }
-
+function handleKeyPress(e){
+    var key=e.keyCode || e.which;
+     if (key==13){
+        var str = document.getElementById("search-input").value;
+        var lowerStr = str.toLowerCase();
+        filterObjects(lowerStr);
+     }
+   }
 function filterObjects(c){
     var x, i;
     x = document.getElementsByClassName("box");

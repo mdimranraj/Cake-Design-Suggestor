@@ -37,7 +37,7 @@
             <hr>
             <!-- ================================================================ -->
             <div id="search-container">
-              <input type="search" id="search-input" placeholder="search here">
+              <input type="search" id="search-input" placeholder="search here" onkeypress="handleKeyPress(event)">
               <button id="search" onclick="searchBar()">Search</button>
             </div>
 
@@ -107,18 +107,18 @@
                 </div>
           
             </div>
-            <div class="cards box anniversary">
+            <div class="cards box anniversary butterscotch">
                 <img src="images/anniversary/a_cake_2.png" class="card-img-top" alt="a_cake_2">
                 <div class="card-body">
                   <h5 class="card-title">₹ 449</h5>
-                  <p class="card-text">Creamy Vannila</p>
+                  <p class="card-text">Creamy Scotch</p>
                 </div>
                 <div class="card-footer">
                   <button type="button" class="btn btn-outline-info">Recipe</button>
                   <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
-            <div class="cards box anniversary">
+            <div class="cards box anniversary vanilla">
                 <img src="images/anniversary/a_cake_3.png" class="card-img-top" alt="a_cake_3">
                 <div class="card-body">
                   <h5 class="card-title">₹ 349</h5>
@@ -129,7 +129,7 @@
                   <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
-            <div class="cards box anniversary">
+            <div class="cards box anniversary vanilla">
                 <img src="images/anniversary/a_cake_4.png" class="card-img-top" alt="a_cake_4">
                 <div class="card-body">
                   <h5 class="card-title">₹ 349</h5>
@@ -151,7 +151,7 @@
                   <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
-            <div class="cards box anniversary">
+            <div class="cards box anniversary redvelvet">
                 <img src="images/anniversary/a_cake_6.png" class="card-img-top" alt="a_cake_6">
                 <div class="card-body">
                   <h5 class="card-title">₹ 329</h5>
@@ -173,7 +173,7 @@
                   <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
-            <div class="cards box anniversary">
+            <div class="cards box anniversary chocolate">
                 <img src="images/anniversary/a_cake_8.png" class="card-img-top" alt="a_cake_8">
                 <div class="card-body">
                   <h5 class="card-title">₹ 399</h5>
@@ -195,7 +195,7 @@
                   <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
-            <div class="cards box anniversary">
+            <div class="cards box anniversary chocolate">
                 <img src="images/anniversary/a_cake_10.png" class="card-img-top" alt="a_cake_10">
                 <div class="card-body">
                   <h5 class="card-title">₹ 499</h5>
@@ -206,7 +206,7 @@
                   <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
-            <div class="cards box anniversary">
+            <div class="cards box anniversary vanilla">
                 <img src="images/anniversary/a_cake_11.png" class="card-img-top" alt="a_cake_11">
                 <div class="card-body">
                   <h5 class="card-title">₹ 699</h5>
@@ -218,7 +218,7 @@
                 </div>
             </div>
             
-            <div class="cards box birthday boy">
+            <div class="cards box birthday boy chocolate">
                 <img src="images/birthday/b_cake_1.png" class="card-img-top" alt="b_cake_1">
                 <div class="card-body">
                   <h5 class="card-title">₹ 329</h5>
@@ -229,7 +229,7 @@
                   <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
-            <div class="cards box birthday boy">
+            <div class="cards box birthday boy strawberry">
                 <img src="images/birthday/b_cake_2.png" class="card-img-top" alt="b_cake_2">
                 <div class="card-body">
                   <h5 class="card-title">₹ 329</h5>
@@ -240,7 +240,7 @@
                   <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
-            <div class="cards box birthday boy">
+            <div class="cards box birthday boy vanilla">
                 <img src="images/birthday/b_cake_3.png" class="card-img-top" alt="b_cake_3">
                 <div class="card-body">
                   <h5 class="card-title">₹ 449</h5>
@@ -251,7 +251,7 @@
                   <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
-            <div class="cards box birthday boy">
+            <div class="cards box birthday boy strawberry">
                 <img src="images/birthday/b_cake_4.png" class="card-img-top" alt="b_cake_4">
                 <div class="card-body">
                   <h5 class="card-title">₹ 449</h5>
@@ -284,7 +284,7 @@
                   <button type="button" class="btn btn-success">Order</button>
                 </div>
             </div>
-            <div class="cards box birthday boy">
+            <div class="cards box birthday boy chocolate">
                 <img src="images/birthday/b_cake_9.png" class="card-img-top" alt="b_cake_9">
                 <div class="card-body">
                   <h5 class="card-title">₹ 349</h5>
@@ -531,7 +531,7 @@
                   <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
-          <div class="cards box children boy">
+          <div class="cards box children boy redvelvet">
             <img src="images/children/ch_cake_18.png" class="card-img-top" alt="ch_cake_18">
             <div class="card-body">
               <h5 class="card-title">₹ 299</h5>
@@ -544,7 +544,7 @@
           </div>
 
           <!-- Occasional  -->
-          <div class="cards box occasional">
+          <div class="cards box occasional chocolate">
             <img src="images/occasional/o_cake_1.png" class="card-img-top" alt="o_cake_1">
             <div class="card-body">
               <h5 class="card-title">₹ 299</h5>
@@ -555,7 +555,7 @@
                   <button type="button" class="btn btn-success">Order</button>
             </div>
           </div>
-          <div class="cards box occasional">
+          <div class="cards box occasional chocolate">
             <img src="images/occasional/o_cake_2.png" class="card-img-top" alt="o_cake_2">
             <div class="card-body">
               <h5 class="card-title">₹ 249</h5>
