@@ -5,9 +5,18 @@ body{
 .navbar{
     padding: 0;
 }
+.nav-toggle{
+    background-color: hotpink !important;
+    border: 2px solid;
+}
+.nav-toggle-icon{
+    
+    background-image: url("images/more.png");
+}
+
 .navbar a{
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(244, 236, 243);
     font-size: 1.2rem;
 }
 .logo{
